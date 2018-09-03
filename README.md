@@ -54,6 +54,20 @@ orit kerf
            <span color='red'  size=3 face="黑体">  红色，黑体，size为3 </span> 
 ## 
 
+
+### 链接
 [还是链接到百度][1]
 
 [1]:https://www.baidu.com 
+### 锚点[11]
+字母要统统小写，空格统统要替换成 '-'  
+URL 不区分大小写   
+
+- [What's included](#whats-included)
+- [Quick start](#quick-start)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [License](#license)
+- [HTML 部分](#html-部分)
+
+[11]:https://www.jianshu.com/p/baa5aaab4018
+
