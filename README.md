@@ -28,7 +28,7 @@
 <h3 id="1.3">副标题3</h3>
 
 
-
+<a name="我想跳到这个地方">W3School</a>
 
 [跳转到What's included](#whats-included)
 
@@ -125,11 +125,9 @@
 >* 注意：如果想链接到其他网页，不要忘了添加`https://`,如果不添加的话，GitHub会基于当前页面进行跳转。
 
 ### GitHub仓库里的图片
-使用markdown语法：[点击跳转](#jump)
 
 
-定义一个锚(id)：<div id="jump">跳转到的地方</div>
-<a name="我想跳到这个地方" />
+
 
 
 
