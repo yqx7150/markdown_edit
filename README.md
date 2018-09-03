@@ -125,7 +125,7 @@
 ### GitHub仓库里的图片
 使用markdown语法：[点击跳转](#jump)
 
-
+[跳转到What's included](#whats-included)
 
 定义一个锚(id)：<div id="jump">跳转到的地方</div>
 
