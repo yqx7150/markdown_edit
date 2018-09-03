@@ -50,22 +50,8 @@
 | :-------:  | :--------:| 
 | \*\*加粗** | **加粗**  | 
 | \*斜体*    | *斜体* | 
-| \[链接](`https://github.com/yqx7150/`) [注意1]  | [链接](https://github.com/yqx7150/) | 
-|                 |   |
+| \`高亮\`  |  `高亮` |
 
-
-[注意1]：如果想链接到其他网页，不要忘了添加`https://`,如果不添加的话，GitHub会基于当前页面进行跳转。
-
-
-
-
-
-**加粗** 
-*斜体* 
-[链接](https://github.com/yqx7150/)注意：如果想链接到其他网页，不要忘了添加`https://`,如果不添加的话，GitHub会基于当前页面进行跳转。
-
-<span style="color: red"> Some red text </span>      
-           <span color='red'  size=3 face="黑体">  红色，黑体，size为3 </span> 
 
 ## 其他
 
@@ -78,22 +64,36 @@
 
 ### [首行缩进]
 
-全方大的空白\&emsp;或\&#8195;是等价写法；
-半方大的空白\&ensp;或\&#8194;是等价写法；
-不断行的空白\&nbsp;或\&#160;是等价写法；
-```
-&emsp;&emsp;进行了首行缩进
-&ensp;&ensp;&ensp;&ensp;进行了首行缩进
-```
-呈现效果
+全方大的空白\&emsp;或\&#8195;是等价写法；  
+半方大的空白\&ensp;或\&#8194;是等价写法；  
+不断行的空白\&nbsp;或\&#160;是等价写法；  
 
-&emsp;&emsp;进行了首行缩进
-&ensp;&ensp;&ensp;&ensp;进行了首行缩进
+```
+&emsp;&emsp;进行了首行缩进  
+&ensp;&ensp;&ensp;&ensp;进行了首行缩进  
+```
+呈现效果  
 
+&emsp;&emsp;进行了首行缩进   
+&ensp;&ensp;&ensp;&ensp;进行了首行缩进   
+
+### 换行
+
+在最后一行添加
 
 ### 链接
+
+#### 
+`[链接](https://github.com/yqx7150/)`   
+呈现效果   
+[链接](https://github.com/yqx7150/)
+
+[链接加悬停效果](https://www.jianshu.com/p/63ff519e90e4 "超链接")
 [还是链接到百度][1]
 
+| [注意1]  | [链接](https://github.com/yqx7150/) | 
+
+[注意1]：如果想链接到其他网页，不要忘了添加`https://`,如果不添加的话，GitHub会基于当前页面进行跳转。
 [1]:https://www.baidu.com 
 
 ### [锚点]
