@@ -98,6 +98,8 @@
 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 
+ax^{2} + by^{2} + c = 0    
+
 ### 分割线
 用至少三个以上的减号 -
 ```
