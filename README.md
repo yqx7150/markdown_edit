@@ -127,7 +127,7 @@
 
 
 
-定义一个锚(id)：<span id="jump">跳转到的地方</span>
+定义一个锚(id)：<div id="jump">跳转到的地方</div>
 
 
 
