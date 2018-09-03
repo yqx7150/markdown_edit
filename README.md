@@ -28,11 +28,12 @@
 <h3 id="1.3">副标题3</h3>
 
 
-<a name="我想跳到这个地方">W3School</a>
+<a name="我想跳到这个地方1">W3School</a>
 
 [跳转到What's included](#whats-included)
 
 
+<a id="我想跳到这个地方2">W3dddddddchool</a>
 ## [标题]
 
 标题有两种，一种是“有等级标题”，另外一种是“无等级标题” 
@@ -137,8 +138,8 @@
 字母要统统小写，空格统统要替换成 '-'  
 URL 不区分大小写   
 
-[点击我跳转](#我想跳到这个地方)
-
+[点击我跳转](#我想跳到这个地方1)
+[点击我跳转](#我想跳到这个地方2)
 
 - [What's included](#whats-included)
 - [Quick start](#quick-start)
