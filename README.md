@@ -28,7 +28,9 @@
 <h3 id="1.3">副标题3</h3>
 
 
-<h5>副标题1-可以与目录的文字不一样</h5>
+
+
+[跳转到What's included](#whats-included)
 
 
 ## [标题]
@@ -125,10 +127,9 @@
 ### GitHub仓库里的图片
 使用markdown语法：[点击跳转](#jump)
 
-[跳转到What's included](#whats-included)
 
 定义一个锚(id)：<div id="jump">跳转到的地方</div>
-
+<a name="我想跳到这个地方" />
 
 
 
@@ -146,7 +147,7 @@ URL 不区分大小写
 
 [What's included]
 dsfw vc
-
+[点击我跳转](#我想跳到这个地方)
 [锚点]:https://www.jianshu.com/p/baa5aaab4018
 [标题]:https://www.jianshu.com/p/63ff519e90e4
 [首行缩进]:https://blog.csdn.net/thither_shore/article/details/52205748
