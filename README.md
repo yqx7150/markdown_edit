@@ -126,6 +126,8 @@
 
 在最后一行添加
 
+
+
 ----
 
 ## 其他
@@ -146,7 +148,12 @@
 ### GitHub仓库里的图片
 
 
+### 插入公式
 
+>* 转为图片，然后插入图片
+>* chrome插件[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)
+>* 在文章中添加 `<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>`。  
+   但是GitHub 不能用，因为它的Markdown不支持mathjax的公式渲染。
 
 ### [锚点]
 字母要统统小写，空格统统要替换成 '-'  
