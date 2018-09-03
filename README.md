@@ -15,14 +15,14 @@
 标题有两种，一种是“有等级标题”，另外一种是“无等级标题” 
 
 ### 无等级标题 
-|    样例    |   输出  | 
+|    语法    |   效果  | 
 | :-----:  | :------:| 
 |  大标题  <br> ==== |  |
 |   中标题 <br> ----  |   |
 
 
 ### 有等级标题
-|    样例    |   输出  | 
+|    语法    |   效果  | 
 | :-----:  | :------:| 
 |   #一级标题  |    |
 |  ##二级标题   |    |
@@ -34,13 +34,13 @@
 ----
 ## 文本
 ### 常用
-|    样例    |   输出  | 
+|    语法    |   效果  | 
 | :-------:  | :--------:| 
-| \*\*加粗\*\* | **加粗**  | 
-| \*斜体*    | *斜体* | 
+| `**加粗**` | **加粗**  | 
+| `*斜体*`    | *斜体* | 
 | \`高亮\`  |  `高亮` | 
-| \~\~删除线\~\~ | ~~删除线~~ | 
-|  加粗且斜体 | *** 立刻就会 *** | 
+| `~~删除线~~` | ~~删除线~~ | 
+|  加粗且斜体 | ***立刻就会*** | 
 ### 列表
 ```
 * 编程语言
@@ -114,11 +114,11 @@
 和超链接的语法非常相似。 
 
 >* 只显示图片：
-  >*  `![github](http://example.com/unicorn.png “github”)；`
-  >* 只显示图片：GitHub仓库里的
->* 点击图片进入另一个网页：`[![image]](http://www.example.com/) [image]: http://example.com/example.png "example"`
-  >* 
-  >* 
+  >* 相对路径： `![github](/figs/github.bmp “GitHub_logo”)`
+  ![github](/figs/github.bmp “GitHub_logo”)
+  >* 绝对路径：`![baidu](https://www.baidu.com/ “百度logo”)`![baidu](https://www.baidu.com/ “百度logo”)
+>* 点击图片进入另一个网页：`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)
+
   
 ### 生成目录
 ```
