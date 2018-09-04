@@ -6,16 +6,60 @@
 :---: | :---:
 杨青新| yqx7150@163.com
 
+<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
+
 
 <table><tr><td bgcolor=red>这里的背景色是：red</td></tr></table>
 <table><tr><td bgcolor="red">这里的背景色是：red</td></tr></table>
 
+<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>      
+
+
 
 ----
 
+<table>
+<tr>                                       #<tr></tr>的个数为：行数
+    <td rowspan="7"> 合并多行成一列：<br/>  #<td></td>的个数为：列数
+        使用rowspan="n" <br/>
+        跨 n 行合并<br/>
+        </td>
+    <td>文件标识：</td>
+    <td>内容</td>
+</tr>
+<tr>
+    <td>第一行：</td>
+    <td>该写什么呢？</td>
+</tr>
+<tr>
+    <td>第二行：</td>
+    <td>随便写吧！</td>
+</tr>
+<tr>
+    <td>第三行：</td>
+    <td>OK了！</td>
+</tr>
+</table>
+
+<font color='green'>文本六</font> 
 
 <table>
+   <tr>
+      <td>第一列</td>
+      <td>第二列</td>
+      <td>第三列</td>
+   </tr>
+   <tr>
+      <td>合并第1，2列</td>
+      <td>    第2行，第3列</td>
+   </tr>
+   <tr>
+      <td>合并第1，2列</td>
+      <td>       第3行，第3列</td>
+   </tr>
+</table>
 
+<table>
     <tr>
         <th rowspan="2">值班人员</th>
         <th>星期一</th>
@@ -29,6 +73,21 @@
     </tr>
 </table>
 
+<table>
+    <tr>
+        <td bgcolor=#FF69B4>第一列</td> 
+        <td>第二列</td>
+        <td>第三列</td> 
+   </tr>
+    <tr>
+        <td colspan="2"bgcolor=#7B68EE>合并第1，2列</td>
+        <td>第2行，第3列</td    
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor=#ADFF2F>合并第1，2列</td>
+        <td>第3行，第3列</td    
+    </tr>
+</table>
 
 ----
 ## 文本
@@ -211,6 +270,8 @@ def foo():
   >* 绝对路径：`![baidu](https://www.baidu.com/ “百度logo”)`![baidu](https://www.baidu.com/ “百度logo”)
 >* 点击图片进入另一个网页：`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)
 
+<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
+
 ### 视频[](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md)
 有效的视频扩展是`.mp4`，`.m4v`，`.mov`，`.webm`，和`.ogv`。
 ```
@@ -265,7 +326,7 @@ Here's a sample video:
 
 [跳转到文档首段](#我想跳到这个地方1)
 
-
+<img src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg" width="150" height="150" alt="图片加载失败时，显示这段字"/>
 
 ### 插入公式
 
