@@ -156,6 +156,23 @@ public class HelloWorld {
     }
 }
 ```
+
+```tex
+$$\sum_{p\rm\;prime}f(p) = \int_{t>1}f(t)d\pi(t).$$
+sum_{21}  
+$sum_{21}$
+```
+
+
+```python
+import numpy as np #python
+def foo():
+    X = np.zeros(2)
+
+```
+
+(https://github.com/github/linguist/blob/master/vendor/README.md)
+
 ----
 
 ## [标题]
