@@ -7,12 +7,9 @@
 杨青新| yqx7150@163.com
 
 
-
 <table><tr><td bgcolor=red>这里的背景色是：red</td></tr></table>
 <table><tr><td bgcolor="red">这里的背景色是：red</td></tr></table>
 ----
-
-
 
 ----
 ## 文本
