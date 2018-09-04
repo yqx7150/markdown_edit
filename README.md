@@ -12,23 +12,8 @@
 <table><tr><td bgcolor="red">这里的背景色是：red</td></tr></table>
 ----
 
-19^th^   
-H~2~O         
-++Inserted text++       
-==Marked text==   
-Footnote 1 link[^first]. 
 
-Footnote 2 link[^second].
 
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
 ----
 ## 文本
 ### 常用
@@ -113,7 +98,6 @@ C[^1]
 ### 代码块
 
 
-
 \```  
 这是代码块   
 \```  
@@ -123,7 +107,7 @@ C[^1]
 这是代码块
 ```
 
-#### [代码语法高亮]()
+#### [代码语法高亮](https://github.com/github/linguist/blob/master/vendor/README.md)
 
 
 ```matlab
@@ -156,13 +140,6 @@ public class HelloWorld {
     }
 }
 ```
-
-```tex
-$$\sum_{p\rm\;prime}f(p) = \int_{t>1}f(t)d\pi(t).$$
-sum_{21}  
-$sum_{21}$
-```
-
 
 ```python
 import numpy as np #python
@@ -218,8 +195,17 @@ def foo():
   >* 绝对路径：`![baidu](https://www.baidu.com/ “百度logo”)`![baidu](https://www.baidu.com/ “百度logo”)
 >* 点击图片进入另一个网页：`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)
 
+### 视频[](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md)
+有效的视频扩展是`.mp4`，`.m4v`，`.mov`，`.webm`，和`.ogv`。
+```
+Here's a sample video:
 
-  
+![Sample Video](figs/markdown_video.mp4)
+```
+Here's a sample video:
+
+![Sample Video](figs/markdown_video.mp4)
+
 ### 生成目录
 ```
 * [主标题](#1)  
