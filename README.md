@@ -1,12 +1,15 @@
 # markdown_edit
 
+针对GitHub上`.md`格式的用法
 
 作者    | 联系方式
 :---: | :---:
 杨青新| yqx7150@163.com
 
-[TOC]
 
+
+<table><tr><td bgcolor=red>这里的背景色是：red</td></tr></table>
+<table><tr><td bgcolor="red">这里的背景色是：red</td></tr></table>
 ----
 
 
@@ -38,7 +41,6 @@
 | :-------:  | :--------:| 
 | `**加粗**` | **加粗**  | 
 | `*斜体*`    | *斜体* | 
-| \`高亮\`  |  `高亮` | 
 | `~~删除线~~` | ~~删除线~~ | 
 |  加粗且斜体 | ***立刻就会*** | 
 ### 列表
@@ -76,6 +78,9 @@
 ----- 
 ```
 
+C[^1]           
+[^1]:https://github.com/yqx7150/
+
 ### [首行缩进]
 
 全方大的空白\&emsp;或\&#8195;是等价写法；  
@@ -95,8 +100,67 @@
 
 在最后一行添加
 
+----
+
+## 代码
+
+### 行内标记
 
 
+
+```
+文本 `标记或简短代码` 文本
+
+```
+文本 `标记或简短代码` 文本
+
+
+### 代码块
+
+
+
+\```  
+这是代码块   
+\```  
+
+效果如下：
+```
+这是代码块
+```
+
+#### [代码语法高亮]()
+
+
+```matlab
+%% 这是备注
+for i = 1:10
+   disp(i);
+end
+```
+
+```MATLAB
+%% 不区分大小写
+for i = 1:10 % 这是matlab的备注
+   disp(i); 
+end
+```
+
+```java
+// 不区分大小写
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World"); // 这是java的备注
+    }
+}
+```
+```JAVA
+// 这是备注
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
 ----
 
 ## 链接
@@ -158,9 +222,10 @@
 
 <a name="我想跳到这个地方1">W3School</a>
 
-<a id="我想跳到这个地方2">W3dddddddchool</a>
+<a id="这是文章首段 ">W3dddddddchool</a>
 
 
+[跳转到文档首段](#我想跳到这个地方1)
 
 ### 插入公式
 
