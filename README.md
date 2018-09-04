@@ -12,28 +12,23 @@
 <table><tr><td bgcolor="red">这里的背景色是：red</td></tr></table>
 ----
 
+19^th^   
+H~2~O         
+++Inserted text++       
+==Marked text==   
+Footnote 1 link[^first]. 
 
-## [标题]
+Footnote 2 link[^second].
 
-标题有两种，一种是“有等级标题”，另外一种是“无等级标题” 
+Inline footnote^[Text of inline footnote] definition.
 
-### 无等级标题 
-|    语法    |   效果  | 
-| :-----:  | :------:| 
-|  大标题  <br> ==== |  |
-|   中标题 <br> ----  |   |
+Duplicated footnote reference[^second].
 
+[^first]: Footnote **can have markup**
 
-### 有等级标题
-|    语法    |   效果  | 
-| :-----:  | :------:| 
-|   #一级标题  |    |
-|  ##二级标题   |    |
-| ###三级标题  |   |
-| ####四级标题   |   |
-| #####五级标题    |   |
-| ######六级标题    |   |
+    and multiple paragraphs.
 
+[^second]: Footnote text.
 ----
 ## 文本
 ### 常用
@@ -163,6 +158,29 @@ public class HelloWorld {
 ```
 ----
 
+## [标题]
+
+标题有两种，一种是“有等级标题”，另外一种是“无等级标题” 
+
+### 无等级标题 
+|    语法    |   效果  | 
+| :-----:  | :------:| 
+|  大标题  <br> ==== |  |
+|   中标题 <br> ----  |   |
+
+
+### 有等级标题
+|    语法    |   效果  | 
+| :-----:  | :------:| 
+|   #一级标题  |    |
+|  ##二级标题   |    |
+| ###三级标题  |   |
+| ####四级标题   |   |
+| #####五级标题    |   |
+| ######六级标题    |   |
+
+
+
 ## 链接
 
 ###
@@ -182,6 +200,7 @@ public class HelloWorld {
   ![github](/figs/github.bmp “GitHub_logo”)
   >* 绝对路径：`![baidu](https://www.baidu.com/ “百度logo”)`![baidu](https://www.baidu.com/ “百度logo”)
 >* 点击图片进入另一个网页：`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)
+
 
   
 ### 生成目录
@@ -226,6 +245,8 @@ public class HelloWorld {
 
 
 [跳转到文档首段](#我想跳到这个地方1)
+
+
 
 ### 插入公式
 
