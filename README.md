@@ -4,9 +4,20 @@
 
 >* 待完善...     
 
+$ <x^2> $  
+
+$ <x^2>      
+
+
 作者    | 联系方式
 :---: | :---:
 杨青新| yqx7150@163.com
+
+>qukuai
+>>kshdflklkajs
+skd;ljfc;lds
+>>>lkdsafjhc
+
 
 <div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
 
