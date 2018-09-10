@@ -4,6 +4,18 @@
 
 >* 待完善...     
 
+a<sub>n</sub>
+
+<u>x+y</u>   
+<span style="text-decoration:overline;">a</span>   
+√<span style="text-decoration:overline;">5</span>   
+
+\begin {pmatrix}
+12& 32&\\
+12& 42
+ \end{pmatrix}
+
+
 $ <x^2> $  
 
 $ <x^2>      
@@ -13,10 +25,11 @@ $ <x^2>
 :---: | :---:
 杨青新| yqx7150@163.com
 
->qukuai
->>kshdflklkajs
-skd;ljfc;lds
->>>lkdsafjhc
+
+>akdsjf;;
+>
+
+
 
 这是长和宽均为50的  
 <div align=center><img width="50" height="50" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
@@ -28,8 +41,10 @@ skd;ljfc;lds
 <div align=center><img src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>  
 
 https://github.com/HeTingwei/ReadmeLearn 
+
 <table><tr><td bgcolor=red>这里的背景色是：red</td></tr></table>
-<table><tr><td bgcolor="red">这里的背景色是：red</td></tr></table>
+
+<tr><td bgcolor="red">这里的背景色是：red</td></tr>
 
 <div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>      
 
@@ -241,6 +256,12 @@ def foo():
     X = np.zeros(2)
 
 ```
+
+
+
+<pre><code>这是一个代码区块。
+
+</code></pre>  
 
 (https://github.com/github/linguist/blob/master/vendor/README.md)
 
