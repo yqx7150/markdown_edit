@@ -4,8 +4,8 @@
 
 >* 待完善...     
 
-a<sub>n</sub>
-
+a<sub>n</sub>   
+a<sup>n</sup>   
 <u>x+y</u>   
 <span style="text-decoration:overline;">a</span>   
 √<span style="text-decoration:overline;">5</span>   
@@ -132,6 +132,10 @@ https://github.com/HeTingwei/ReadmeLearn
 | `*斜体*`    | *斜体* | 
 | `~~删除线~~` | ~~删除线~~ | 
 |  加粗且斜体 | ***立刻就会*** | 
+|  `a<sub>n</sub>` |a<sub>n</sub> |
+|`a<sup>2</sup>` |a<sup>2</sup>  | 
+|   |  | 
+
 ### 列表
 ```
 * 编程语言
@@ -312,6 +316,10 @@ def foo():
 
 <div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
 
+#### 给图片加上超链接
+[![baidu]](http://baidu.com)  
+[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo" 
+
 ### 视频[](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md)
 有效的视频扩展是`.mp4`，`.m4v`，`.mov`，`.webm`，和`.ogv`。
 ```
@@ -346,6 +354,8 @@ Here's a sample video:
 <h3 id="1.1">副标题1-可以与目录的文字不一样</h3>
 <h3 id="1.2">副标题2-只要id与目录括号里面的数字相同即可</h3>
 <h3 id="1.3">副标题3</h3>
+
+
 
 
 ### 页间跳转（锚点链接）
