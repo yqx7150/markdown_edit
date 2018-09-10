@@ -18,12 +18,14 @@ $ <x^2>
 skd;ljfc;lds
 >>>lkdsafjhc
 
-这是宽度50的  
+这是长和宽均为50的  
 <div align=center><img width="50" height="50" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
-这是宽度100的  
+这是长和宽均为100的  
 <div align=center><img width="100" height="100" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
-这是宽度150的  
-<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
+这是长和宽均为150的  
+<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>  
+这是不加宽度信息的  
+<div align=center><img src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>  
 
 https://github.com/HeTingwei/ReadmeLearn 
 <table><tr><td bgcolor=red>这里的背景色是：red</td></tr></table>
