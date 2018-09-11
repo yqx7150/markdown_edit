@@ -1,32 +1,43 @@
 # markdown_edit
 
-针对GitHub上`.md`格式的用法
+针对GitHub上`.md`格式的用法   
+<pre>
+  演示如何使用 pre 标签是DVD
+ 空行和 空格大涮选从
+进行控制
+
+
+</pre>
+
+<code>一段电脑代码</code>    
 
 
 白名单 https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb       
 ## 支持的html标签
-|标签| 作用 |例子| 例子的效果
-|:---:|:--:|:--:|:--:|
-|h1 h2 h3 h4 h5 h6 h7 h8|标题|`<h3 id=1>主标题</h3>`|<h9 id=1>主标题</h9>
-|br|换行|`第一行<br>第二行`| 第一行<br>第二行 
-|b| 粗体 |`<b>粗体</b>`|<b>粗体</b>
-|i|| `<i>The lightning</i>`|<i>The lightning</i>
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+|标签| 作用 |例子| 例子的效果|对应的markdown语法
+|:---:|:--:|:--:|:--:|:--:|
+|h1 h2 ... h8...|标题|`<h3 id=1>主标题</h3>`|<h3 id=1>主标题</h3>|`###`
+|br|换行|`第一行<br>第二行`| 第一行<br>第二行 | 在行尾加两个空格，但是**在表格内无效**
+|b/strong| 加粗 |`<b>粗体</b>`|<b>粗体</b><br>|**加粗**
+|i/em|斜体| `<i>斜体</i>`|<i>斜体</i>|*斜体*
+|a|超链接|`<a href="https://www.baidu.com">百度一下</a>`|<a href="https://www.baidu.com">百度一下</a>|[百度一下](https://www.baidu.com")
+|pre|文本块|`<pre>文本块<br><\pre>`|<pre>文本块<\pre>|```文本块```
+|code|小段代码块|`<code>代码<\code>`|<code>代码<\code>|`代码`
+|img||||
+|tt||||
+|div||||
+|ins||||
+|del||||
+|sup||||
+|sub||||
+|p||||
+|ol||||
+|ul||||
+|table||||
+|thead||||
+|tbody||||
 
-   strong em a pre code img tt  div ins del sup sub p ol ul table thead tbody tfoot blockquote      dl dt dd kbd q samp var hr ruby rt rp li tr td th s strike summary      details caption figure figcaption
+tfoot blockquote      dl dt dd kbd q samp var hr ruby rt rp li tr td th s strike summary      details caption figure figcaption
 
 
 
