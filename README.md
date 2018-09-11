@@ -2,6 +2,25 @@
 
 针对GitHub上`.md`格式的用法
 
+表格1
+```
+|表头1| 表头2|表头3|
+|:-- | :----:  | ---:|
+|左对齐| 居中 |右对齐|
+|两边的`\|`线可以不要 | |
+```
+|表头1| 表头2|表头3|
+|:-- | :--:  | --:|
+|左对齐| 居中 |右对齐|
+|两边的`\|`线可以不要 | |
+
+> 注意
+>>* 源码里面的`-`线至少要两个
+>>* 控制左右对齐的`:`以及控制表头的`-`线中间不能有空格
+
+
+
+
 >* 待完善...     
 
 a<sub>n</sub>   
@@ -195,6 +214,13 @@ C[^1]
 
 ----
 
+## 表格
+
+|表头1| 表头2|表头3|
+|:-- | : --:  | --:|
+|左对齐| 居中 |右对齐 
+
+
 ## 代码
 
 ### 行内标记
@@ -315,6 +341,8 @@ def foo():
 >* 点击图片进入另一个网页：`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)`[![github]](https://github.com) ![github](/figs/github.bmp “跳转到github主页”)
 
 <div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
+
+
 
 #### 给图片加上超链接
 [![baidu]](http://baidu.com)  
