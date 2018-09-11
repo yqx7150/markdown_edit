@@ -3,22 +3,60 @@
 针对GitHub上`.md`格式的用法
 
 
-
-
-
-
-
 白名单 https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb       
 ## 支持的html标签
-|标签| 用法|例子|
-|:---:|:--:|:--:|
-|h1 h2 h3 h4 h5 h6 h7 h8|标题|<h3>主标题</h3>
-| | |
-| | |
-| | |
-| | |
+|标签| 作用 |例子| 例子的效果
+|:---:|:--:|:--:|:--:|
+|h1 h2 h3 h4 h5 h6 h7 h8|标题|`<h3 id=1>主标题</h3>`|<h9 id=1>主标题</h9>
+|br|换行|`第一行<br>第二行`| 第一行<br>第二行 
+|b| 粗体 |`<b>粗体</b>`|<b>粗体</b>
+|i|| `<i>The lightning</i>`|<i>The lightning</i>
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
 
-br b i strong em a pre code img tt  div ins del sup sub p ol ul table thead tbody tfoot blockquote      dl dt dd kbd q samp var hr ruby rt rp li tr td th s strike summary      details caption figure figcaption
+   strong em a pre code img tt  div ins del sup sub p ol ul table thead tbody tfoot blockquote      dl dt dd kbd q samp var hr ruby rt rp li tr td th s strike summary      details caption figure figcaption
+
+
+
+<cite>dskjfh</cite>
+### 生成目录
+```
+* [主标题](#1)  
+  * [副标题1](#1.1)  
+  * [副标题2](#1.2)  
+  * [副标题3](#1.5)
+ 
+<h3 id="1">主标题</h3>
+<h4 id="1.1">副标题1-可以与目录的文字不一样</h4>
+<h4 id="1.2">副标题2-只要id与目录括号里面的数字相同即可</h4>
+<h4 id="1.5">副标题3</h4>
+```
+生成效果
+
+* [主标题](#1)  
+  * [副标题1](#1.1)  
+  * [副标题2](#1.2)  
+  * [副标题3](#1.5)
+
+<h2 id="1">主标题</h2>
+<h3 id="1.1">副标题1-可以与目录的文字不一样</h3>
+<h3 id="1.2">副标题2-只要id与目录括号里面的数字相同即可</h3>
+<h3 id="1.5">副标题3</h3>
+
+
+
 
 
 ### 生成目录
