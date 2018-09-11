@@ -1,6 +1,10 @@
 # markdown_edit
 
 针对GitHub上`.md`格式的用法   
+
+> 未完 ，待续.......
+
+
 <pre>
   演示如何使用 pre 标签是DVD
  空行和 空格大涮选从
