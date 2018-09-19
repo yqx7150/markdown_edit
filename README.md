@@ -4,6 +4,11 @@
 
 > 未完 ，待续.......
 
+<center>这一行需要居中</center>   
+
+
+- 第一项
+- 第二项
 
 <pre>
   演示如何使用 pre 标签是DVD
@@ -18,7 +23,7 @@
 
 白名单 https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb       
 ## 支持的html标签
-<center>这一行需要居中</center>   
+
 
 |标签| 作用 |例子| 例子的效果|对应的markdown语法
 |:---:|:--:|:--:|:--:|:--:|
