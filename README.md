@@ -18,6 +18,7 @@
 
 白名单 https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb       
 ## 支持的html标签
+<center>这一行需要居中</center>
 |标签| 作用 |例子| 例子的效果|对应的markdown语法
 |:---:|:--:|:--:|:--:|:--:|
 |h1 h2 ... h8...|标题|`<h3 id=1>主标题</h3>`|<h3 id=1>主标题</h3>|`###`
